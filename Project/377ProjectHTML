@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title> Movie Database </title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+<div id="header">
+ <header> <a href="home.html"><img src="logo.png" alt="Home" align="left" width="150" height="106"></a>
+    <h1>Movie Database </h1>
+</div>
+<main>
+ 	<div id="filters">
+ 	<fieldset>
+   <legend>Filters </legend
+   <p> Genre </p>
+	<input type="radio" name="genre" id="comedy" />Comedy<br>
+	<input type="radio" name="genre" id="drama" />Drama<br>
+	<input type="radio" name="genre" id="actionadventure" />Action/Adventure<br>
+	<input type="radio" name="genre" id="horror" />Horror<br>
+	<input type="radio" name="genre" id="scifi" />Sci-Fi<br>
+	<input type="radio" name="genre" id="romance" />Romance<br>
+	<input type="radio" name="genre" id="documentary" />Documentary<br>
+	<input type="radio" name="genre" id="sports" />Sports<br>
+	<input type="radio" name="genre" id="anime" />Anime<br>
+	<input type="radio" name="genre" id="mystery" />Mystery<br>
+	<input type="radio" name="genre" id="animation" />Animation<br>
+	<input type="radio" name="genre" id="music" />Music<br>
+	<input type="radio" name="genre" id="western" />Western<br>
+	<input type="radio" name="genre" id="family" />Family<br>
+	<input type="radio" name="genre" id="fantasy" />Fantasy<br>
+
+ </fieldset> 
+   </p>
+ 	</div>
+ 	<div id="movies">
+      <p> movies will populate here </p>
+	</div>
+</main>
+</body>
+</head>
+</html>
